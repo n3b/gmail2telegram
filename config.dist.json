@@ -1,0 +1,14 @@
+{
+  "email": "somebody@example.com",
+  "mailbox": "INBOX",
+  "telegram": {
+    "chat_id": 123456789,
+    "bot_token": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"
+  },
+  "google": {
+    "client_id": "12345",
+    "client_secret": "ZZZZZZZZZZZZXXXXXXXXXXX1",
+    "access_token": "ZZZZZZZZZZZZXXXXXXXXXXX2",
+    "refresh_token": "ZZZZZZZZZZZZXXXXXXXXXXX3"
+  }
+}
