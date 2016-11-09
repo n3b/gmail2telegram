@@ -10,5 +10,6 @@
     "client_secret": "ZZZZZZZZZZZZXXXXXXXXXXX1",
     "access_token": "ZZZZZZZZZZZZXXXXXXXXXXX2",
     "refresh_token": "ZZZZZZZZZZZZXXXXXXXXXXX3"
-  }
+  },
+  "remove_links": true
 }

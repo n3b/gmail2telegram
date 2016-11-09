@@ -3,9 +3,13 @@ require('babel-polyfill')
 const listener    = require('./src/listener')
 const htmlToText  = require('html-to-text')
 const tg          = require('./src/telegram')
+const config      = require('./config.json')
 
 const prepareText = (str) => {
-  const text = htmlToText.fromString(str, {ignoreHref: true, ignoreImage: true})
+  let text = htmlToText.fromString(str, {ignoreHref: true, ignoreImage: true})
+  if (config.remove_links) {
+    text = text.replace(/https?:\/\/[^\n\s]+/, '[link]')
+  }
   return text.replace(/\n{2,}/g, "\n")
 }
 
