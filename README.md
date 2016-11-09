@@ -1,6 +1,10 @@
 ##Install
 
-`npm install gmail2telegram`
+```
+git clone https://github.com/n3b/gmail2telegram 
+cd gmail2telegram
+npm install
+```
 
 ##Configure
 
